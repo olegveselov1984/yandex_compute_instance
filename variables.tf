@@ -76,8 +76,8 @@ variable "known_internal_ip" {
 
 variable "image_family" {
   type    = string
-#  default = "ubuntu-2004-lts"
-  default = "ubuntu-2204-lts"
+  default = "ubuntu-2004-lts"
+#  default = "ubuntu-2204-lts"
 }
 
 variable "preemptible" {
